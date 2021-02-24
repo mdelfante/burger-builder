@@ -1,13 +1,14 @@
-import Layout from './components/Layout/Layout';
+import Layout from './containers/Layout/Layout';
+import BurgerBuilder from './containers/BurgerBuilder/BurgerBuilder';
 
-function App() {
+const app = () => {
   return (
     <div>
       <Layout>
-        <p>Test</p>
+        <BurgerBuilder />
       </Layout>
     </div>
   );
-}
+};
 
-export default App;
+export default app;
