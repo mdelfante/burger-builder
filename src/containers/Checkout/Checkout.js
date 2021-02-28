@@ -21,7 +21,6 @@ class Checkout extends Component {
                 ingredients[param[0]] = parseInt(param[1]);
             }
         }
-        console.log(ingredients);
         this.setState({ingredients: ingredients, totalPrice: price});
     }
 
